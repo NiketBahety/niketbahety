@@ -84,7 +84,28 @@ ul
         left: 100%;
     }
 }
-
+.my_image
+{
+    clip-path: circle(50% at 50% 50%);
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    margin: 0 5%;
+    background-color: rgb(13, 41, 28);
+}
+.my_image img
+{
+    cursor: pointer;
+    filter:opacity(0.5);
+    width: 20vw;
+    height: 20vw;
+    transition: 0.5s ease-in-out;
+}
+.my_image img:hover
+{
+    filter: opacity(0.8);
+    transition: 0.5s ease-in-out;
+}
 .navbar
 {
     position: fixed;
@@ -162,13 +183,17 @@ ul
 }
 .heading
 {
-    color: darkslategray;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
 }
 .about p
 {
-    color: darkolivegreen;
+    color: burlywood;
+    mix-blend-mode: difference;
     padding: 30px 10px;
     max-width: 60%;
+    letter-spacing: 0.9px;
+    word-spacing: 1px;
 }
 .btn
 {
@@ -203,6 +228,7 @@ ul
 }
 .work h1
 {
+    font-family: 'Poppins', sans-serif;
     background: #10B065;
     background: -webkit-linear-gradient(to right, #a782eb 0%, #ff73e8 100%);
     background: -moz-linear-gradient(to right, #a782eb 0%, #ff73e8 100%);
@@ -232,23 +258,28 @@ ul
     flex-direction: column;
     align-items: center;
 }
+.card-container span
+{
+    overflow: hidden;
+    margin: 20px 0;
+    border: 3px solid black;
+    border-image: linear-gradient(aliceblue , white);
+    border-image-slice: 1;
+}
 .card-container img
 {
     width: 60vw;
-    margin: 20px 0;
     filter: grayscale(100%);
     cursor: pointer;
     transition: 0.5s ease-in-out;
     opacity: 0.6;
-    border: 3px solid black;
-    border-image: linear-gradient(aliceblue , white);
-    border-image-slice: 1;
 }
 .card-container img:hover
 {
     opacity: 1;
     filter: grayscale(0%);
     transition: 0.5s ease-in-out;
+    transform: scale(1.05);
 }
 .reviews
 {
@@ -262,6 +293,7 @@ ul
 }
 .reviews h1
 {
+    font-family: 'Poppins', sans-serif;
     padding-top: 10px;
     color: rgb(61, 194, 134);
 }
@@ -337,13 +369,16 @@ i:hover
 {
     color: rgb(204, 255, 242);
 }
-.review-template h1
+.review-template h2
 {
+    text-align: right;
+    font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .review-template p
 {
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    font-family: sans-serif;
+    line-height: 22px;
 }
