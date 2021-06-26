@@ -382,3 +382,136 @@ i:hover
     font-family: sans-serif;
     line-height: 22px;
 }
+
+.contact
+{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact h2
+{
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 20px 0;
+}
+.contact-details
+{
+    background-color: rgba(6, 42, 44, 0.9);
+    backdrop-filter: blur(20px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 70vw;
+    margin: auto;
+    padding: 50px;
+    padding-left: 10vw;
+    column-gap: 5%;
+    row-gap: 5%;
+    margin-top: 20px;
+}
+input
+{
+    color: rgb(231, 231, 231);
+    letter-spacing: 1px;
+    width: 80%;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(0, 192, 160);
+    transition: 0.5s ease-in-out;
+}
+input:focus
+{
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.contact-details .message
+{
+    grid-row: 2/ span 3;
+    grid-column: 2;
+}
+::placeholder
+{
+    color: white;
+    opacity: 0.5;
+    font-size: 11px;
+}
+.submit
+{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    grid-column: 1/ span 2;
+    width: 20%;
+    margin: 20px auto;
+    padding: 0;
+    background: transparent;
+    border: 1px solid rgb(0, 192, 160);
+    padding: 15px 0;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.submit:hover
+{
+    background: rgb(0, 192, 160);
+    color: rgb(239, 255, 233);
+    transition: 0.5s ease-in-out;
+}
+input:focus
+{
+    transition: 0.1s ease-in-out;
+    border-bottom: 2px solid rgb(1, 245, 204);
+}
+.footer
+{
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgb(6, 42, 44);
+    padding: 30px 50px;
+    display: flex;
+}
+.footer a
+{
+    text-decoration: none;
+}
+.footer a i.fab
+{
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 20px;
+    padding: 0 20px;
+}
+.footer div i
+{
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 20px;
+    padding: 0 20px;
+}
+.footer div
+{
+    padding: 20px 0;
+}
+.fa-phone
+{
+    transform: rotate(100deg);
+}
+.footer span
+{
+    color: rgba(255, 255, 255, 0.747);
+}
+.footer h2
+{
+    color: rgba(255, 255, 255, 0.747);
+}
+div.quick-links
+{
+    padding-left: 50px;
+}
