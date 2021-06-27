@@ -69,3 +69,11 @@ previous.addEventListener("click" , function(){
     counter--;
     }
 });
+
+let ham_menu = document.getElementById("ham-menu");
+let ham_menu_bar = document.getElementById("ham-menu-bar");
+
+ham_menu.addEventListener("click" , function(){
+    ham_menu.classList.toggle("clicked");
+    ham_menu_bar.classList.toggle("clicked");
+});
