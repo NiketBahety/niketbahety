@@ -1,3 +1,9 @@
+window.addEventListener("load" , function(){
+    let loader = document.getElementById("loader");
+    loader.classList.add("loaded");
+});
+
+
 let navitem = document.getElementsByClassName("nav-item");
 let navlinks = document.getElementsByClassName("nav-links");
 
