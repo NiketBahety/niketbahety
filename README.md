@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @NiketBahety
 - 👀 I’m interested in web development 
-- 🌱 I’m currently learning data structures and algorithms 
+- 🌱 I’m currently learning Nodejs and MongoDB 
 - 💞️ I’m looking to collaborate on web development projects
 - 📫 How to reach me Instagram - @niketbahety
 
