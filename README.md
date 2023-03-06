@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @NiketBahety, full-stack developer(MERN)
-- 👀 I’m interested in web development 
+- 👀 I’m interested in competitive programming
 - 🌱 I’m currently learning Spline 
-- 💞️ I’m looking to collaborate on web development projects
+- 💞️ I’m looking to collaborate on web development projects 
 - 📫 How to reach me Instagram - @niketbahety Linkedin - https://www.linkedin.com/in/niket-bahety-260151229/
 
 <!---
